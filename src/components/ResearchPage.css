@@ -1,0 +1,77 @@
+/* ResearchPage.css */
+.research-page {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.research-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.research-header h1 {
+  font-size: 2rem;
+  color: #2c3e50;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.search-form input,
+.search-form select {
+  padding: 10px;
+  border: 1px solid #bdc3c7;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.search-form fieldset {
+  border: 1px solid #bdc3c7;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.search-form legend {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.search-form label {
+  display: block;
+  margin: 5px 0;
+}
+
+.search-form button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.search-form button:hover {
+  background-color: #2980b9;
+}
+
+.results-list {
+  margin-top: 20px;
+}
+
+.results-list h3 {
+  font-size: 1.25rem;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.results-list p {
+  margin: 5px 0;
+  color: #34495e;
+}
